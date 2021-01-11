@@ -1,0 +1,36 @@
+#boutUsSect1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../public/img/img5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#boutUsSect1 img {
+  height: 100%;
+  width: 100%;
+}
+
+#boutUsSect2 {
+  padding: 10% 0;
+  background-color: whitesmoke;
+}
+
+#boutUsSect2 .col-4 {
+  justify-content: center;
+  text-align: center;
+}
+
+#boutUsSect2 .col-4 i {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+#boutUsSect2 .col-4 h2 {
+  padding-bottom: 5rem;
+}
+
+#boutUsSect2 .col-4 p {
+  line-height: 200%;
+}
