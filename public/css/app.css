@@ -111,7 +111,7 @@ body {
 }
 
 #imgInsert1 {
-  background-image: url("../../public/img/kristaps-ungurs-ZtkVUP3xxAw-unsplash.jpg");
+  background-image: url("../../../public/img/textureIndex.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -208,6 +208,22 @@ body {
   z-index: 1 !important;
 }
 
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer .col-3 a {
+  font-size: 2rem;
+}
+
+footer .row {
+  margin-top: 1rem;
+}
+
 #boutUsSect1 {
   height: 100vh;
   width: 100%;
@@ -243,6 +259,10 @@ body {
 
 #boutUsSect2 .col-4 p {
   line-height: 200%;
+}
+
+#lightButton {
+  background-color: white;
 }
 
 #navbar-designer {
@@ -358,42 +378,122 @@ body {
 }
 
 #gImg1 {
-  background-image: url(../../../public/img/emiliano-vittoriosi-oplnTh1sIws-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal1.jpg");
 }
 
 #gImg2 {
-  background-image: url("../../../public/img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
+  background-image: url("../../../public/img/imgGal11.jpg");
 }
 
 #gImg3 {
-  background-image: url(../../../public/img/kristaps-ungurs-ZtkVUP3xxAw-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal3.jpg");
 }
 
 #gImg4 {
-  background-image: url(../../../public/img/oleg-laptev-7jQh3EiS8Bs-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal4.jpg");
 }
 
 #gImg5 {
-  background-image: url(../../../public/img/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal5.jpg");
 }
 
 #gImg6 {
-  background-image: url(../../../public/img/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal10.jpg");
 }
 
 #gImg7 {
-  background-image: url(../../../public/img/yoann-siloine-dyaxQ-aoGWY-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal7.jpg");
+  background-position: bottom;
 }
 
 #gImg8 {
-  background-image: url(../../../public/img/elizabeth-lies-T9Gsevu_N8Y-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal8.jpg");
+  background-position: center;
 }
 
 #gImg9 {
-  background-image: url(../../../public/img/emile-seguin-R9OueKOtGGU-unsplash.jpg);
+  background-image: url("../../../public/img/imgGal9.jpg");
 }
 
 .gImg {
-  height: 300px;
-  width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+#SectImgDesign {
+  margin-top: 5rem;
+  background-color: black;
+}
+
+#SectImgDesign p {
+  font-size: 2rem;
+}
+
+#SectImgDesign a {
+  color: black;
+}
+
+#SectImgDesign div {
+  margin: 0.2rem;
+  height: 400px;
+  width: 400px;
+}
+
+#SectImgDesign .gImg {
+  overflow: hidden;
+}
+
+#SectImgDesign .textImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  transition: all .2s;
+  transform: translateY(10px);
+}
+
+#SectImgDesign .revealText {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+main {
+  margin: 10rem 0;
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+main h1 {
+  text-align: center;
+  margin: 3% 0;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+main button {
+  background-color: white;
+  outline: none;
+  border: solid 1px black;
+  border-radius: 20px;
+  width: 10rem;
+  margin: auto;
+}
+
+main input,
+main textarea {
+  resize: none;
+  background-color: white;
+  outline: none;
+  border: solid 1px black;
+  padding: 1rem;
+  border-radius: 10px;
 }

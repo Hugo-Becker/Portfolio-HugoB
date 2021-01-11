@@ -57,7 +57,7 @@ window.addEventListener('scroll',()=>{
     if(scrolled>(bodyHeight-770)){
         footerInside.classList.add('Zindex')
     }
-    else if(scrolled<(bodyHeight-775)){
+    else if(scrolled<(bodyHeight-770)){
         footerInside.classList.remove('Zindex')
     }
 })
@@ -65,7 +65,36 @@ window.addEventListener('scroll',()=>{
 
 
 
+// DESIGN PORTFOLIO
+// let sectionImgDesign=document.querySelector('#SectImgDesign')
 
+
+
+// sectionImgDesign.addEventListener('mouseover',(e)=>{
+//     item=e.target
+//     // SELECT HIDEN DIV
+//     let textImg=item.querySelector('.textImg')
+//     console.log(textImg);
+//     textImg.classList.add('revealText')
+
+// })
+
+// let gImg=document.querySelectorAll('.gImg')
+
+// for (let i = 0; i < gImg.length; i++) {
+//     const e = gImg[i];
+//     const textImg=e.querySelector('.textImg')
+
+//     e.addEventListener('mouseover',()=>{
+//         textImg.classList.add('revealText')
+//     })
+//     e.addEventListener('mouseout',()=>{
+
+//         textImg.classList.remove('revealText')
+//     })
+
+    
+// }
 
 
 

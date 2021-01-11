@@ -13,24 +13,24 @@
 
 </head> 
  <!-- HEADER -->
-<body style="background-color: black;">
-  
+<body >
+ 
 <!-- NAVBAR -->
 
-  <nav id="navbar-designer" class="navbar navbar-expand-lg navbar-light sticky-top pr-3 pl-5 p-0 ">
+<nav class="navbar  navbar-expand-lg navbar-light sticky-top pl-5  p-0">
     <!-- BUTTON COLLAPSE -->
-    <button id="lightButton" class="navbar-toggler" data-toggle="collapse" data-target="#navList">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navList">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- BRAND --> 
     <a class="navbar-brand" href="">
-      <i class="fab fa-artstation" style="color: white;"></i>
+      <i class="fab fa-artstation" style="color: black;"></i>
     </a>
-    <span class="navbar-text mr-3"style="color:white;">
+    <span class="navbar-text mr-3"style="color: black;"">
       Aeroby
     </span>
 
     <div class="collapse navbar-collapse" id="navList">
+      <!-- BRAND --> 
       
       <!-- LISTE -->
       
@@ -40,8 +40,7 @@
             <!-- dropdown -->
             <div class="dropdown-menu" aria-labelledby="dropdown_target" >
               <a class="dropdown-item" href="./index.html">Home Main</a>
-              <a class="dropdown-item" href="">Designer Portfolio</a>
-             
+              <a class="dropdown-item" href="./designerPortfolio.html">Designer Portfolio</a>
             </div>
 
           </li>
@@ -49,8 +48,7 @@
             <a class="nav-link" data-toggle="dropdown" data-target="dropdown_target2" href="#">Pages</a>
             <div class="dropdown-menu" aria-labelledby="dropdown_target2" >
               <a class="dropdown-item" href="aboutUs.html">About Us</a>
-              <a class="dropdown-item" href="">Contact Us</a>
-              
+              <a class="dropdown-item" href="./contact.php">Contact Us</a>
             </div>
           </li>
           <li class="nav-item">
@@ -62,103 +60,53 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Shop</a>
           </li>
+
         </ul>
     </div>
   </nav>
+  <main>
+    <h1>Contact Us</h1>
+    <form class="contact-form" action="contactform.php" method="post">
+      <input type="text" type="name" placeholder="Full Name">
+      <input type="text" type="mail" placeholder="Your E-mail">
+      <input type="text" type="subject" placeholder="Subject">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit"  name="submit">Send Mail</button>
+    </form>
+  </main>
 
 
-  <div class="type-writer">
-    <h1 >
-      Awesome, it's writing itself. 
-    </h1>
-  </div>
-
+  
 
   
 
 
 
-  <section id="SectImgDesign" class="d-flex align-content-stretch flex-wrap justify-content-center" style="min-height: 400px;">
-    <div id="gImg1" class="gImg">
-      <div class="textImg">
-        <p>Accomplish</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg2" class="gImg">
-      <div class="textImg">
-        <p>Action</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg3" class="gImg">
-      <div class="textImg">
-        <p>Believe</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg4" class="gImg">
-      <div class="textImg">
-        <p>Clarity</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg5" class="gImg">
-      <div class="textImg">
-        <p>Challenge</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg6" class="gImg">
-      <div class="textImg">
-        <p>Commitment</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg7" class="gImg">
-      <div class="textImg">
-        <p>Confidence</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg8" class="gImg">
-      <div class="textImg">
-        <p>Dare</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-    <div id="gImg9" class="gImg">
-      <div class="textImg">
-        <p>Drive</p>
-        <a href="">Learn More</a>
-      </div>
-    </div>
-  </section>
 
-
-
-
-
-
-
-
-  <footer id="footerTrigg" class="">
+  <footer id="footerTrigg" class="" style="position: relative; z-index: 10;">
     <div id="insideFooter" class="d-flex flex-column footer">
       <h2>Lets work together </h2>
       <a href="mailto:becker.hugo@hotmail.com">
-        <h3>mail us</h3>
+        <h3>Email</h3>
       </a>
     
 
       <div class=" row d-flex justify-content-around">
         <div class="col-3">
-          hello
+          <a href="">
+            <i class="fab fa-facebook-f"></i>
+          </a>
         </div>
         <div class="col-3">
-          hello
+          <a href="">
+            <i class="fab fa-twitter"></i>
+          </a>
+
         </div>
         <div class="col-3">
-          hello
+          <a href="">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </div>
 
       </div>
@@ -169,9 +117,6 @@
 
    </div>
   </footer>
-
-
-  
 
 
 

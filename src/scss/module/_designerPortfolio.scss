@@ -1,6 +1,10 @@
 // .navbar{
 //   background-color: black !important;
 // }
+
+#lightButton{
+  background-color: white;
+}
 #navbar-designer{
   background-color: black !important;
 
@@ -112,44 +116,96 @@
 
 
 #gImg1{
-  background-image: url(../../../public/img/emiliano-vittoriosi-oplnTh1sIws-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal1.jpg');
 }
 
 #gImg2{
-  background-image: url('../../../public/img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg');
+  background-image: url('../../../public/img/imgGal11.jpg');
 }
 #gImg3{
-  background-image: url(../../../public/img/kristaps-ungurs-ZtkVUP3xxAw-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal3.jpg');
 }
 #gImg4{
-  background-image: url(../../../public/img/oleg-laptev-7jQh3EiS8Bs-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal4.jpg');
 }
 #gImg5{
-  background-image: url(../../../public/img/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal5.jpg');
 }
 #gImg6{
-  background-image: url(../../../public/img/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal10.jpg');
 }
 #gImg7{
-  background-image: url(../../../public/img/yoann-siloine-dyaxQ-aoGWY-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal7.jpg');
+  background-position: bottom;
 }
 #gImg8{
-  background-image: url(../../../public/img/elizabeth-lies-T9Gsevu_N8Y-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal8.jpg');
+  background-position: center;
 }
 #gImg9{
-  background-image: url(../../../public/img/emile-seguin-R9OueKOtGGU-unsplash.jpg);
+  background-image: url('../../../public/img/imgGal9.jpg');
 }
-
-
 
 .gImg{
-  height: 300px;
-  width: 300px;
+  background-size: cover;
+  background-position: center;
+
 }
 
-.imgGall{
-  // gap: 1rem;
+
+
+
+
+#SectImgDesign{
+  margin-top: 5rem;
+  background-color: black;
+  p{
+    font-size: 2rem;
+  }
+  a{
+    color: black;
+  }
+  div{
+    margin: 0.2rem;
+    height: 400px;
+    width: 400px;
+  }
+  .gImg{
+    // background: none;
+    overflow: hidden;
+  }
+  // .gImg:hover{
+
+  // }
+
+  .textImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    transition: all .2s;
+    transform: translateY(10px) ;
+  }
+  .revealText{
+    opacity: 1;
+    transform:translateY(0) ;
+
+
+
+
+
+  }
+ 
 }
+
+
+
+
+
 
 
     
